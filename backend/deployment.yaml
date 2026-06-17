@@ -18,8 +18,8 @@ spec:
 
     spec:
       containers:
-      - name: backend
-        image: codefuns/cashbot:v3
+      - name: nginx
+        image: nginx:latest
 
         ports:
-        - containerPort: 8080
+        - containerPort: 80
